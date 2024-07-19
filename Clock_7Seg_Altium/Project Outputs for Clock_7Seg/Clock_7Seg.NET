@@ -1,0 +1,49 @@
+PARTS LIST
+
+ARDUINO-NANO      ARDUINO-NANO    *
+DS1307            DS1307-MODULE   D?
+Jack-DC           Jack-DC         J?
+PAD_SW            PAD_SW          P?
+SevSeg_8_digit_MODULESevSeg_8_digit_MODULES?
+SevSeg_1_digit    SevSeg_1_digit  S?
+SevSeg_4_digit    SevSeg_4_digit  S?
+EOS
+NET LIST
+
+NODENAME SW1              $
+    *         27  P?         1
+NODENAME SDA              $
+    *          8  D?       SDA
+NODENAME SCL              $
+    *          9  D?       SCL
+NODENAME NetLabel172      $
+    *         29
+NODENAME G                $
+    *         20  S?         5  S?        10
+NODENAME F                $
+    *         21  S?         9  S?        12
+NODENAME E                $
+    *         22  S?         1  S?         1
+NODENAME DIG5             $
+    *         28  S?         8
+NODENAME DIG4             $
+    *          7  S?         6
+NODENAME DIG3             $
+    *          6  S?        10
+NODENAME DIG2             $
+    *          5  S?        11
+NODENAME DIG1             $
+    *          4  S?        14
+NODENAME D                $
+    *         23  S?         2  S?         2
+NODENAME CS               $
+    *         30
+NODENAME CLK              $
+    *          1
+NODENAME C                $
+    *         24  S?         4  S?         4
+NODENAME B                $
+    *         25  S?         6  S?         9
+NODENAME A                $
+    *         26  S?         7  S?        13
+EOS

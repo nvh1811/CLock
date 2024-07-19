@@ -1,0 +1,10 @@
+Output: Cadnetix Netlist
+Type  : CadnetixNetlist
+From  : Project [Clock_7Seg.PrjPcb]
+   Generated File[Clock_7Seg.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:12:33 SA On 31/05/2024
