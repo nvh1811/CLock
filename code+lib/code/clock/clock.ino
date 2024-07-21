@@ -55,6 +55,8 @@ byte pins[] = { 8, 7, 6, 5, 4, 3, 2};  // g - a
 int digit[] = { A0, A1, A2, A3, 10};  // 1 - 6
 int dl = 4;
 
+int a[] = { 8, 2, 3, 4, 5, 6, 7};
+
 Led7Seg led(pins, 1);
 
 int button = 9;
@@ -103,7 +105,7 @@ void gio_phut(){
     int minute = now.minute();
     int second = now.second();
 
-    int thu = now.dayOfTheWeek() + 1;
+    int thu = now.dayOfTheWeek();
 
     led.Display(hour / 10);
     analogWrite(digit[0], analog_value);
@@ -125,7 +127,7 @@ void gio_phut(){
     delay(dl);
     analogWrite(digit[3], 0);
 
-    led.Display(thu);
+    led.Display(a[thu]);
     analogWrite(digit[4], analog_value);
     delay(dl);
     analogWrite(digit[4], 0);
