@@ -51,6 +51,7 @@ public:
       Port::Write(code[d]);
     }   
 };
+
 byte pins[] = { 8, 7, 6, 5, 4, 3, 2};  // g - a
 int digit[] = { A0, A1, A2, A3, 10};  // 1 - 6
 int dl = 4;
